@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>restaurante santa maria bar</title>
+</head>
+
+<body>
+  <header>
+    <h1> Nuestro Restó</h1>
+    <h2 id class="titulo">Carta</h2>
+
+  </header>
+
+  <aside id class="lateral">
+    <nav>
+      <ul>
+        <li>Entradas</li>
+        <li>Pratos Principais</li>
+        <li>Sobremesas</li>
+        <li>Saída</li>
+        <li>Petisco</li>
+        <li>Bebidas</li>
+        <li>Smoothies</li>
+        <li>Café</li>
+        <li>Vinhos</li>
+        <li>Cerveja</li>
+
+      </ul>
+    </nav>
+
+  </aside>
+
+  <main id class="corpo">
+    <sectionid id class="entrada">
+      <h2>Entrada</h2>
+      <h3>Tiras de Mussarela</h3>
+      <p>Tiras mozzarella assados</p>
+
+      <img id class="imagem1" src="https://github.com/migueldonascimentoevangelista/pratica-restaurante/blob/main/img/foto-entradas.jpg?raw=true" alt=" imagem entrada">
+
+      <h3>Jalapeños recheados</h3>
+      <p>Jalapeños recheados com camarão
+        e queijo cheddar com bacon.
+      </p>
+      <h3>Ração Rabas
+      </h3>
+      <p>220 gr. de torresmos de lula
+        frito com alioli </p>
+
+      <h3>Porção de batatas fritas com Cheddar e bacon</h3>
+
+      <h3>Asas de frango</h3>
+      <p>Torta de Asas de frango e frito com molho de churrasco
+      </p>
+      <h3>Croquetes de cogumelos
+      </h3>
+      <p>Croquetes feitos de cogumelos dissecados.
+      </p>
+      <h3>Camarão rei em cuzcuz</h3>
+      <p>Camarões grelhados com nozes, tomate cereja e manjericão
+      </p>
+      <h3>Bebês de Lula grelhado</h3>
+      <p>Com manga e melancia grelhada
+      </p>
+      <h3>Nachos com reescar</h3>
+      <p>Nachos refogados com feijão preto, chouriço vermelho e molho barbecue</p>
+      <h3>Cobertura de pudim preto</h3>
+      <p>Pão caseiro de campo, muzzarela e queijo brie.</p>
+      <h3>Cobertura de campo</h3>
+      <p>Chouriço de sangue, batata, chutney de maçã e creme de endro</p>
+      <h3>Tampa de moela</h3>
+      <p>Pão doce com manga, abacaxi, gengibre, pimenta e pipoca.</p>
+    </section>
+
+    </section>
+
+    <section id class="pratos">
+
+      <h2>pratos Principais</h2>
+      <img src="https://github.com/migueldonascimentoevangelista/pratica-restaurante/raw/main/img/foto-ppal.jpg" alt=" prato principal">
+
+      <h3>Bife Criollo
+      </h3>
+      <p>Ribeye com patos andinos, salada de rúcula, provolone e molho crioulo</p>
+      <h3>Salada Caesar
+      </h3>
+      <p>Com camarão ou com frango
+        Salada Caesar clássica com frango grelhado ou camarão
+      </p>
+      <h3>Penne Rigatte</h3>
+      <p>Com bife, creme ou molho de rosa.
+      </p>
+      <h3>Salada de camarão rei</h3>
+      <p>camarões refogados, trabalhado, cebolinha com molho de laranja, vinagre e azeite.
+      </p>
+      <h3>Ceviche (feito na época)
+      </h3>
+      <p>Pesca Dia Chinatown com cebola roxa, alho, pimenta, aipo, coentro, gengibre, campo de milho, batata-doce e
+        leite de tigre.
+      </p>
+      <h3>Pesca com Chop Suey
+      </h3>
+      <p>Dia de pesca grelhado com azeitonas, alho e alcaparras, acompanhado de vegetais chop suey.
+      </p>
+      <h3>Pesca na grelha
+      </h3>
+      <p>Com risoto verde de espargos e beterraba assada.
+      </p>
+      <h3>Bife T-Bone
+      </h3>
+      <p>600 g de carne com chimichurri t-osso, patins andinas e beterrabas em conserva.</p>
+      <h3>Pechuguitas defumados
+
+      </h3>
+      <p>Peito de frango defumado, recheado com cogumelos e duxelle de cebola. Servido com arroz com mostarda e laranjas
+        em forma de amêndoa
+      </p>
+      <h3>Carré de cerdo
+      </h3>
+      <p>Chutney com cenouras e batatas doces são de vidro com molho teriyaki.
+      </p>
+      <h3>Sorrentinos verdes
+      </h3>
+      <p>Recheado com abóbora assada e queijo brie, perfumado com manteiga de ervas e sumo de toranja.
+      </p>
+
+      <section id class="sobremesa">
+
+        <h2>sobremesa</h2>
+        <img id class= "imagem2"src="https://github.com/migueldonascimentoevangelista/pratica-restaurante/raw/main/img/foto-postre.jpg" alt=" sobremesa imagem">
+        
+
+        <h1>Creme caseiro
+        </h1>
+        <p>Nosso pudim clássico com doce de leite e creme.
+        </p>
+        <h1>Salada de frutas
+        </h1>
+        <p>Fondue de chocolate
+          Com frutas frescas em filetes.
+        </p>
+        <h1>Crocante de Banana e Nutella
+        </h1>
+        <p>Degustação de Mousses
+          Mousse de manga, chocolate, moca e frutas vermelhas.
+        </p>
+        <h1>Cheesecake</h1>
+        
+
+  </main>
+
+
+<footer>
+  <p id class=" contatos"> dhvbfkjhbvhkjdfbvhkjb</p>
+  <img id class="logo" src="https://github.com/migueldonascimentoevangelista/pratica-restaurante/blob/main/img/logo-web.png?raw=true" alt="logo santa maria">
+  <address> contato: </address>
+</footer>
+
+
+
+</body>
+
+</html>
+

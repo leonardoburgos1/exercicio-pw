@@ -1,0 +1,10 @@
+var readlineSync = require('readline-sync');
+
+
+let resp = readlineSync.questionInt(" digite um numero:");
+
+let  = resp - 10;
+
+if (resp < 3) {
+    console.log(" menos de três anos:" + resp);
+}

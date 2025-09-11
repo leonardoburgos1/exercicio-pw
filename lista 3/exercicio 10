@@ -1,0 +1,9 @@
+var readlineSync = require('readline-sync');
+
+let n1 = readlineSync.questionInt(" digite um numero: ");
+
+let n2 = n1 && n1 * 2;
+
+ if ( n2 ) {
+    console.log(" maior que vinte anos: ");
+ }

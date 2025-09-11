@@ -1,0 +1,13 @@
+var readlineSync = require('readline-sync');
+
+let n1 = readlineSync.questionInt(" digite um numero:");
+let n2 = readlineSync.questionInt(" digite um numero:");
+
+let num1 = n1 * 5;
+let num2 = n2 * 5;
+
+if(num1, num2 < 20){
+    console.log(" menos de vinte anos:" +  " usuario 1:"
+        ,  num1, "usuario 2:", num2, );
+}
+

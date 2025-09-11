@@ -1,0 +1,10 @@
+const readlineSync = require('readline-sync');
+
+let n1 = 8;
+
+let n2 = n1 + 5;
+
+
+if ( n2 < 5){
+    console.log( n1 ," reprovado");  
+}

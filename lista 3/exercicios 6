@@ -1,0 +1,15 @@
+var readlineSync = require('readline-sync');
+
+let n1 = readlineSync.questionInt(" digite um numero:");
+
+let n2 = readlineSync.questionInt(" digite um numero:");
+
+let num1 = n1 * 10;
+
+let num2 = n2 * 10;
+
+if (num1 > 15, num2 > 15) {
+    console.log("maior que quinze:");
+    console.log("usuario 1: " + num1);
+    console.log("usuario 2: " + num2);
+} 
