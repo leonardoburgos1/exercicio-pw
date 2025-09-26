@@ -1,8 +1,0 @@
-var readlineSync = require('readline-sync');
-
-var n1 = readlineSync.questionInt("digite um numero: ");
-var n2 = readlineSync.questionInt("digite um numero: ");
-
-if (n1, n2 == 10) {
-    console.log("igual a dez:" + "usuario 1 :" + n1, "usuario 2 :" + n2);
-}
