@@ -1,0 +1,170 @@
+/* Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+body {
+  height: 100vh;
+  background-color:black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+header {
+  background: url("https://th.bing.com/th/id/OIP.Gdh05WBtqRduHS7HOt1NhAHaEJ?w=275&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3");
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+  border-bottom: 3px solid;
+  border-image-slice: 0.9;
+  border-image-source: linear-gradient(90deg, #ff9100, #1c0d6a, #438b86);
+}
+
+/* Sections Gerais*/
+.section {
+  padding: 2rem;
+  border-bottom: 3px solid;
+  border-image-slice: 0.9;
+  border-image-source: linear-gradient(90deg, #ff9100, #1c0d6a, #438b86);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* About */
+.about .content {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.about {
+  background-color: black;
+  color: white;
+}
+
+.about .image-content {
+  background: url("https://th.bing.com/th/id/OIP.UONSGZC7aJ4fzemTLqI4RgHaEK?w=275&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3") no-repeat center/cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #ff9100;
+  overflow: hidden;
+  float: left;
+  /* usando float */
+}
+
+.about .description-content {
+  margin-left: 180px;
+  padding: 1rem;
+}
+
+/* Skills */
+.skills {
+  text-align: center;
+  background: linear-gradient(blue,turquoise,beige);
+
+
+}
+
+.skills ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.skills ul li {
+  display: inline-block;
+  border: 2px solid #ff9100;
+  padding: 0.5rem 1.5rem;
+  color: black;
+  background: url("https://th.bing.com/th/id/OIP.jaBjhFWBAfIRbtMLmekX1wHaE8?w=261&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3");
+  background-size: cover;
+  border-radius: 50px;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: transform linear 0.3s;
+}
+
+.skills ul li:hover {
+  transform: scale(1.2);
+}
+
+/* Project */
+.projects {
+  text-align: center;
+  
+}
+.section-title{
+  color: white;
+}
+.projects .project {
+  background: url("https://th.bing.com/th/id/OIP.ZSY_J3j0NYqIoBy-BLQSIQHaE7?w=280&h=187&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  max-width: 350px;
+  margin: 1rem;
+  display: inline-block;
+  padding: 2rem;
+  color:white;
+  box-shadow: 0 0 0 2px #4598;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+  background: url("https://wallpapers.com/images/hd/4k-programming-green-codec-cy62qdo5s3c714ew.jpg") no-repeat center/cover;
+  color: black;
+}
+
+.contact form {
+  width: 60%;
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 0.3rem;
+  text-align: left;
+}
+
+.contact input {
+  all: unset;
+  background-color: #fff;
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.6rem 1rem;
+  width: 100%;
+  border-radius: 6px;
+  color: #000000;
+}
+
+.contact input[type=submit] {
+  background-color: #ff9100;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+  background-color: #0e0d0b;
+  color: #fff;
+  padding: 4rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
