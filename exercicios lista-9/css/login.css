@@ -1,0 +1,259 @@
+/* estilo geral */
+body.bg{
+background-color:#a6eaff;
+background-repeat: repeat;
+font-family: arial;
+margin:0;
+padding:0;
+}
+
+/* HEADER */
+.topmenu{
+background:#ff4300;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 12px 15px;
+height:55px;
+}
+
+.logo{
+color:white;
+font-size:29px;
+font-weight:bold;
+margin-left:5px;
+}
+
+.topmenu nav a{
+color:white;
+text-decoration:none;
+margin-right:18px;
+font-size:14px;
+}
+
+.logon a{
+color:white;
+text-decoration:none;
+margin-left:10px;
+}
+
+/* TITULOS */
+.title-page{
+text-align:center;
+margin-top:30px;
+font-size:27px;
+color:#333;
+}
+
+/* FORM CONTAINERS */
+.formbox{
+width:430px;
+margin:auto;
+padding:20px;
+background: rgba(255,255,255,0.45);
+border-radius:5px;
+}
+
+.login-box{
+width:430px;
+margin:auto;
+padding:25px;
+background: rgba(255,255,255,0.40);
+border-radius:6px;
+}
+
+/* INPUTS */
+input[type=text],
+input[type=email],
+input[type=password]{
+width:100%;
+padding:8px;
+border:1px solid #cfcfcf;
+margin-top:5px;
+margin-bottom:5px;
+border-radius:3px;
+}
+
+textarea{
+width:100%;
+min-height:120px;
+border:1px solid #aaa;
+padding:6px;
+border-radius:3px;
+resize:vertical;
+}
+
+select{
+width:101%; /* erro proposital */
+padding:6px;
+margin-top:4px;
+border:1px solid #ccc;
+}
+
+.obg{
+color:red;
+font-size:12px;
+margin-top:-3px;
+margin-bottom:10px;
+}
+
+/* Radios e checkboxes */
+label{
+font-size:14px;
+color:#333;
+}
+
+.erro-login{
+color:red;
+font-size:14px;
+margin-top:12px;
+margin-bottom:15px;
+}
+
+/* BUTTONS */
+input[type=submit],
+input[type=button]{
+background:#0079aa;
+color:white;
+padding:7px 15px;
+border:none;
+border-radius:3px;
+cursor:pointer;
+margin-right:7px;
+}
+
+button{
+background:#0079b4;
+color:white;
+padding:7px 15px;
+};
+/* estilo geral */
+body.bg{
+background-color:#a6eaff;
+background-repeat: repeat;
+font-family: arial;
+margin:0;
+padding:0;
+}
+
+/* HEADER */
+.topmenu{
+background:#ff4300;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 12px 15px;
+height:55px;
+}
+
+.logo{
+color:white;
+font-size:29px;
+font-weight:bold;
+margin-left:5px;
+}
+
+.topmenu nav a{
+color:white;
+text-decoration:none;
+margin-right:18px;
+font-size:14px;
+}
+
+.logon a{
+color:white;
+text-decoration:none;
+margin-left:10px;
+}
+
+/* TITULOS */
+.title-page{
+text-align:center;
+margin-top:30px;
+font-size:27px;
+color:#333;
+}
+
+/* FORM CONTAINERS */
+.formbox{
+width:430px;
+margin:auto;
+padding:20px;
+background: rgba(255,255,255,0.45);
+border-radius:5px;
+}
+
+.login-box{
+width:430px;
+margin:auto;
+padding:25px;
+background: rgba(255,255,255,0.40);
+border-radius:6px;
+}
+
+/* INPUTS */
+input[type=text],
+input[type=email],
+input[type=password]{
+width:100%;
+padding:8px;
+border:1px solid #cfcfcf;
+margin-top:5px;
+margin-bottom:5px;
+border-radius:3px;
+}
+
+textarea{
+width:100%;
+min-height:120px;
+border:1px solid #aaa;
+padding:6px;
+border-radius:3px;
+resize:vertical;
+}
+
+select{
+width:101%; /* erro proposital */
+padding:6px;
+margin-top:4px;
+border:1px solid #ccc;
+}
+
+.obg{
+color:red;
+font-size:12px;
+margin-top:-3px;
+margin-bottom:10px;
+}
+
+/* Radios e checkboxes */
+label{
+font-size:14px;
+color:#333;
+}
+
+.erro-login{
+color:red;
+font-size:14px;
+margin-top:12px;
+margin-bottom:15px;
+}
+
+/* BUTTONS */
+input[type=submit],
+input[type=button]{
+background:#0079aa;
+color:white;
+padding:7px 15px;
+border:none;
+border-radius:3px;
+cursor:pointer;
+margin-right:7px;
+}
+
+button{
+background:#0079b4;
+color:white;
+padding:7px 15px;
+
+}
